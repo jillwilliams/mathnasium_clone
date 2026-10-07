@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    background-color: white;
+    font-family: "Quicksand";
+    background: url("images/background_mathnasium.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.container {
+    width: 100%; 
+}
+
+/* navbar section */
+.container .navbar-section nav {
+    width: 100%;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+}
+
+/* navbar formatting */
+.container .navbar-section nav .navbar-words {
+    width: 74%;
+    height: 100px;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+}
+
+/* the mathnasium logo */
+.container .navbar-section nav .logo img {
+    width: 140px;
+    height: auto;
+    margin-left: 20px;
+    margin-right: 60px;
+    margin-top: 15px;
+}
+
+/* navbar words */
+.container .navbar-section nav .navbar-words {
+    display: flex;
+}
+
+
+/* getting list items to go horizontal */
+.container .navbar-section nav .navbar-words ul {
+    display: flex;
+    list-style-type: none;
+}
+
+/* a tags in the navbar */
+.container .navbar-section nav .navbar-words ul li a {
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+    margin-right: 20%;
+}
+
+/* the text getting started etc */
+.container .navbar-section nav .navbar-words ul li h4 {
+    font-size: 15px;
+    margin-top: 30px;
+    display: flex;
+    margin-right: 60px;
+}
+
+/* the text: my center */
+.container .navbar-section nav .navbar-words ul li .my-center {
+    color: white;
+}
+
+/* the assessment button */
+.assessment-button {
+    width: 200px;
+    padding: 10px 20px;
+    color: white;
+    background-color: rgb(154,18,31);
+    cursor: pointer;
+    border: none;
+    margin-top: 20px;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 55%;
+}
+
+/* the flag div */
+.flag {
+    display: flex;
+    background-color: black;
+    align-items: center;
+    margin-left: 5%;
+}
+
+/* img of the flag */
+.flag img {
+    width: 40px;
+    height: 40px;
+    
+}
+
+/* ========end of navbar========== */
+
+.section_one {
+    width: 600px;
+    height: 450px;
+    background-color: white;
+    border-top: 10px solid rgb(230,230,16);
+    margin-top: 50px;
+    margin-left: 150px;
+    opacity: 80%;
+}
+
+/* text: top rated k-12 math tutors */
+.section_one .window .left-container p {
+    font-size: 50px;
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-right: 20px;
+}
+
+/* the text with checkmarks in front */
+.window .left-container .text {
+    font-size: 20px;
+    margin-left: 30px;
+    margin-top: 35px;
+    color: #454545;
+}
+
+/* the button and text div */
+.schedule-div {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+    
+}
+
+/* button: schedule free assessment */
+.schedule-button {
+    margin-bottom: 30px;
+    background-color: rgb(154,18,31);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 15px;
+
+}
+
+/* text: already a student? */
+.schedule-div h3 {
+    margin-top: 8px;
+    color: #454545;
+    font-size: 20px;
+}
+
+.schedule-div a {
+    text-decoration: none;
+    color: #454545;
+}
