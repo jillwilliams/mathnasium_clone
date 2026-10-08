@@ -6,7 +6,7 @@
 
 body {
     width: 100%;
-    min-height: 100vh;
+    max-height: 100vh;
     background-color: white;
     font-family: "Quicksand";
     background: url("images/background_mathnasium.png");
@@ -113,7 +113,7 @@ body {
 
 .section_one {
     width: 600px;
-    height: 450px;
+    height: 360px;
     background-color: white;
     border-top: 10px solid rgb(230,230,16);
     margin-top: 50px;
@@ -123,7 +123,7 @@ body {
 
 /* text: top rated k-12 math tutors */
 .section_one .window .left-container p {
-    font-size: 50px;
+    font-size: 40px;
     margin-top: 30px;
     margin-left: 30px;
     margin-right: 20px;
@@ -131,9 +131,9 @@ body {
 
 /* the text with checkmarks in front */
 .window .left-container .text {
-    font-size: 20px;
+    font-size: 15px;
     margin-left: 30px;
-    margin-top: 35px;
+    margin-top: 20px;
     color: #454545;
 }
 
@@ -164,7 +164,229 @@ body {
     font-size: 20px;
 }
 
+/* text: log-in */
 .schedule-div a {
     text-decoration: none;
     color: #454545;
 }
+
+/* -----------bottom banner------------------- */
+.banner-bottom {
+    width: 268%;
+    background-color: #454545;
+    height: 243px;
+    margin-top: 62px;
+    margin-left: -150px;
+}
+
+.banners {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/* the left divider */
+.left-banner {
+    /* border: 2px solid orangered; */
+    width: 50%;
+    height: 243px;
+
+}
+
+/* the horiz. divider between sides */
+.horizontal-divider {
+    border-right: 2px solid white;
+}
+
+
+/* right-side banner */
+.right-banner {
+    /* border: 2px solid yellow; */
+    width: 50%;
+    height: 243px;
+}
+
+
+/* the img of student studying */
+.lft-banner img {
+    width: 180px;
+    height: 180px;
+    background-position: center;
+    background-position: cover;
+    margin-top: 32.5px;
+    margin-left: 60px;
+}
+
+/* left banner */
+.left-banner {
+    display: flex;
+
+}
+
+/* the text of left banner */
+.left-banner-text {
+    color: white;
+
+
+}
+
+/* text: free math skills... */
+.left-banner-text h3 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* text: call us today... */
+.left-banner-text h5 {
+    margin-left: 30px;
+    margin-right: 20px;
+    margin-top: 40px;
+
+}
+
+/* text: contact us */
+.left-banner-text h4 {
+    text-decoration: underline;
+    margin-top: 40px;
+    text-align: end;
+    margin-right: 50px;
+
+}
+
+/* -------------start right banner----------- */
+.right-banner {
+    display: flex;
+    flex-direction: column;
+}
+
+/* stars */
+.star-rating {
+    color: yellow;
+    margin-left: 40px;
+    margin-top: 40px;
+}
+
+/* text: K. Hofman */
+.reviewers-name {
+    color: white;
+    margin: 20px 0px 20px 40px;
+}
+
+/*  */
+.reviewers-name h5 {
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+/*  */
+.reviews h4 {
+    text-decoration: underline;
+    text-align: end;
+    margin-right: 50px;
+
+}
+
+/* -------------section 4 grey banner----------- */
+.template4 {
+    width: 100%;
+    height: 50px;
+    background-color: rgb(255,255,255);
+    color: #454545;
+    margin-top: 300px;
+}
+
+
+.grey-banner {
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 15px;
+    align-items: center;
+    margin-top: 20px;
+}
+
+/* the text in the banner */
+.grey-banner h4 {
+    margin-top: 15px;
+}
+
+/* =========start section 5 yellow section===== */
+/* the template div */
+.template5 {
+    min-height: 60vh;
+    /* border: 2px solid red; */
+    background-color: rgb(241,206,122);
+    display: flex;
+}
+
+/* text: new mathnasium plus */
+.section5 h1 {
+    color: rgb(196,25,24);
+    margin-top: 100px;
+    margin-left: 150px;
+}
+
+/* text: for high achievers.... */
+.section5 h3 {
+    margin-left: 150px;
+    margin-top: 20px;
+}
+
+/* button: discover mathnasium plus */
+.section5 .discover {
+    padding: 10px 20px;
+    cursor: pointer;
+    background-color: rgb(154,18,31);
+    color: white;
+    width: 300px;
+    height: 50px;
+    border: none;
+    margin-left: 150px;
+    margin-top: 40px;
+
+}
+
+/* the boy smiling */
+.img-boy img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-left: 300px;
+    margin-top: 100px;
+    border: 2px solid rgb(154,18,31);
+
+}
+
+/* ========start section 6==========  */
+.template6 {
+    min-height: 90vh;
+    border-top: 10px yellow solid;
+    background-color: aliceblue;
+
+}
+
+.t6-container {
+    display: flex;
+    flex-direction: column;
+
+}
+
+/* text: our results */
+.t6-text h3 {
+    color: darkgray;
+    margin-left: 200px;
+    margin-top: 40px;
+}
+
+/* text: the proof... */
+.t6-text h1 {
+    margin-left: 200px;
+
+}
+
+/* the 3 circles */
+.circles {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 200px;
+}
+
