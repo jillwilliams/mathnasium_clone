@@ -452,10 +452,6 @@ body {
     background-color: rgb(239,236,233);
 }
 
-/* text: how we help.... */
-.template7 .students-excel {
-    
-}
 
 /* div for main header text: proven teaching methods..... */
 .template7 .skills {
@@ -515,9 +511,6 @@ body {
 /* ===========begin section 8============= */
 /* ===========math tutors near you============ */
 
-.template8 {
-
-}
 
 /* text: math tutors near you */
 .t8-text h4 {
@@ -687,7 +680,7 @@ body {
 /* text: students can take... */
 .enroll h4 {
     margin-top: 10px;
-    margin-left: 150px;;
+    margin-left: 150px;
 }
 
 
@@ -765,9 +758,6 @@ body {
     background-color: rgb(154,18,31);
     color: white;
     margin-left: 100px;
-    
-    
-
 }
 
 /* =============start section 11=============== */
@@ -833,6 +823,7 @@ body {
 /* the faq section div */
 .faq-section {
     width: 90%;
+    height: 1000px;
     margin-left: 5%;
     margin-right: 5%;
     background-color: white;
@@ -868,13 +859,24 @@ body {
 /* the question first one */
 .t11-questions-first {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-between;
     margin-left: 40px;
     margin-right: 50px;
     margin-top: 100px;
 }
 
+
+/* the horiz div formatting */
+.t11-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* the plus signs, first one */
+.t11-row p {
+    font-size: 30px;
+}
 
 /* the questions */
 .t11-questions {
@@ -883,34 +885,138 @@ body {
     justify-content: space-between;
     margin-left: 40px;
     margin-right: 50px;
-    margin-top: 40px;
+    margin-top: 20px;
 }
+
+/* the plus signs */
+.t11-questions p {
+    font-size: 30px;
+}
+
+
 
 /* last question */
 .t11-questions-last-one {
     margin-bottom: 40px;
     margin-top: 40px;
 }
+
+.t11-divider {
+    margin-bottom: -90px;
+}
+/* the horiz divider between questions */
+.t11-divider .horizontal-divider {
+    border-bottom: 2px solid red;
+    width: 100%;
+    height: 2px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+
+}
+
+
 /* bottom of container */
 .t11-bottom-container {
     width: 100%;
     height: 100px;
     background-color: rgb(239,236,233);
-
-
-
-
-
-
-
+}
 
 /* ==============start section 12================= */
 /* ====================featured promotions======== */
 
 .template12 {
     width: 100%;
-    background-color: aqua;
+    background-color: white;
     min-height: 100vh;
 
+}
 
+/* text: featured promotions */
+.t12-container .t12-featured {
+    text-align: center;
+    margin-top: 40px;
+}
+
+/* the tutoring image */
+.t12-container img {
+    width: 300px;
+    height: 300px;
+    background-position: center;
+    background-size: cover;
+    margin-left: 20%;
+    margin-top: 30px;
+
+}
+
+/* text: free math skills assessment */
+.t12-container h2 {
+    margin-left: 200px;
+    margin-top: 10px;
+
+
+}
+
+/* text: call us today... */
+.t12-container h5 {
+    margin-left: 200px;
+    margin-top: 20px;
+}
+
+/* text: contact us */
+.t12-container .t12-contact-us {
+    margin-left: 750px;
+    text-decoration: underline;
+    margin-bottom: 100px;
+}
+
+/* three divs section */
+.t12-three-divs {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/* text: kennewick */
+.t12-three-divs .t12-get-directions h3 {
+    margin-top: 30px;
+
+}
+
+/* text: address */
+.t12-get-directions h5 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+/* text: call,text,email */
+.t12-get-directions h4 {
+    margin-bottom: 10px;
+}
+
+/* the icons: sicials */
+.t12-social-icons i {
+    font-size: 30px;
+    margin: 10px;
+    margin-bottom: 30px;
+}
+
+/* text: hours of operation */
+.hours-of-operation h3 {
+    margin-bottom: 20px;
+}
+
+/* text: all the hours of operation */
+.hours-of-operation h4 {
+    margin-bottom: 5px;
+}
+
+/* text: office hours */
+.hours-of-operation .office {
+    margin-top: 20px;
+}
+
+/* the sun-fri text */
+.hours-of-operation .meetings {
+    margin-bottom: 40px;
 }
