@@ -994,6 +994,17 @@ body {
     margin-bottom: 10px;
 }
 
+/* text: email anchor tag remove underline */
+.t12-get-directions a {
+    text-decoration: none;
+    color: black;
+}
+
+.t12-get-directions a:hover {
+    color: red;
+    cursor: pointer;
+}
+
 /* the icons: sicials */
 .t12-social-icons i {
     font-size: 30px;
@@ -1019,4 +1030,181 @@ body {
 /* the sun-fri text */
 .hours-of-operation .meetings {
     margin-bottom: 40px;
+}
+
+/* =============start section 13============= */
+/* =========contact us section=============== */
+
+.template13 {
+    width: 100%;
+    min-height: 100vh;
+    background-color: black;
+    color: white;
+}
+
+/* div */
+.t13-information-entry {
+    display: flex;
+    flex-direction: row;
+    
+
+}
+
+/* div */
+.t13-text-entry {
+    display: flex;
+    flex-direction: column;
+    margin-left: 300px;
+
+}
+
+/*  */
+.t13-left-column h4 {
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+
+/* div */
+.t13-right-column {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+/* text: have questions..... */
+.t13-title {
+    margin-left: 300px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+
+}
+
+/* formatting for input areas */
+.t13-input-container {
+    padding: 20px 20px;
+    width: 500px;
+    background-color: rgb(20,20,20);
+    border: 2px solid rgb(43,43,43);
+}
+    
+/* formatting for right column */
+.t13-right-column h4 {
+    margin-top: 5px;
+    margin-bottom: 5px;
+
+}
+
+/* terms of service message */
+.terms-of-service {
+    display: flex;
+    flex-direction: column;
+    margin-left: 300px;
+}
+
+/* text: by clicking send... */
+.terms-of-service h5 {
+    margin-left: 5px;
+    margin-top: 20px;
+}
+
+/* underline terms of service and privacy policy */
+.terms-of-service span {
+    text-decoration: underline;
+
+}
+
+
+/* button div formatting */
+.t13-button {
+    text-align: center;
+}
+
+
+/* button: send message */
+.terms {
+    padding: 20px;
+    width: 300px;
+    background-color: rgb(154,18,31);
+    margin-top: 20px;
+    cursor: pointer;
+    border: none;
+    color: white;
+    align-items: center;
+    text-align: center;
+    
+
+}
+
+/* div: agree to terms */
+.agree-to-terms {
+    display: flex;
+    max-width: 70%;
+    margin-left: 300px;
+    margin-top: 20px;
+}
+
+/* checkbox */
+.agree-to-terms .checkbox {
+    margin-right: 20px;
+    font-size: 20px;
+    width: 40px;
+    height: 40px;
+}
+
+/* text: i agree to receive.... */
+.agree-to-terms h5 {
+    margin-bottom: 60px;
+}
+
+
+
+/* underline words */
+.agree-to-terms h5 span {
+    text-decoration: underline;
+
+}
+
+/* ==========start template 14=============== */
+/* ==========bottom black navbar============= */
+
+.template14 {
+    width: 100%;
+    min-height: 100vh;
+    background-color: black;
+    color: white;
+    padding-top: 30px;
+}
+
+/* four containers div */
+.four-containers {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/* mathnasium logo, image div formatting */
+.t14-div-one img {
+    width: 300px;
+}
+
+/* text: download parent pack */
+.t14-div-one h5 {
+    margin-top: 20px;
+    
+}
+
+/* anchor tag  */
+.t14-div-one h5 a {
+    text-decoration: none;
+    color: rgb(196,25,24);
+}
+
+/* second column of text */
+.t14-div-two, .t14-div-three, .t14-div-four {
+    margin-top: 45px;
+}
+
+/* text in second column */
+.t14-div-two h4, .t14-div-three h4, .t14-div-four h4 {
+    margin-bottom: 33px;
 }
