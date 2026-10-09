@@ -1208,3 +1208,62 @@ body {
 .t14-div-two h4, .t14-div-three h4, .t14-div-four h4 {
     margin-bottom: 33px;
 }
+
+/* =============start section 15=============== */
+/* ==============red bottom row================ */
+
+.template15 {
+    width: 100%;
+    min-height: 120px;
+    background-color: rgb(232,38,39);
+
+}
+
+/* div work */
+.t15-container {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 50px
+}
+
+/* div work */
+.t15-container .t15-first-row-text {
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+
+}
+
+/* text: accessibility... */
+.t15-first-row-text h5 {
+    margin-left: 70px;
+    margin-top: 20px;
+}
+
+/* text: do not sell */
+.do-not-sell {
+    background-color: green;
+    height: 20px;
+}
+
+/* the icons div */
+.t15-container .t15-social-icons {
+    display: flex;
+    justify-content: space-around;
+}
+
+/* the icons themselves */
+.t15-container .t15-social-icons i {
+    font-size: 20px;
+    margin-bottom: 30px;
+    color: white;
+    margin-top: 20px;
+    padding: 0px 20px;
+    
+}
+
+/* copyright sentence */
+.template15 .copyright {
+    color: white;
+    margin-left: 245px;
+}
